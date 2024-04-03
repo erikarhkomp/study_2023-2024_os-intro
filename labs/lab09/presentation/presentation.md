@@ -1,27 +1,43 @@
 ---
 ## Front matter
 lang: ru-RU
-title: Лабораторная работа № 9.
-author: |
-	Арутюнян Эрик Левонович
-institute: |
-	RUDN, Москва, Россия
-date: 2022, 10 мая
+title: Лабораторная работа №9.
+subtitle: 
+author:
+  - Арутюнян Эрик Левонович
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 3 апреля 2024
+
 
 ## Formatting
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
 toc: false
 slide_level: 2
 theme: metropolis
-header-includes: 
- - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
+header-includes:
+- \metroset{progressbar=frametitle,sectionpage=progressbar, numbering=fraction}
+- '\makeatletter'
+- '\beamer@ignorenonframefalse'
+- '\makeatother'
 aspectratio: 43
 section-titles: true
+
 ---
 
-# Командная оболочка Midnight Commander
+# Цели и задачи работы
+
+## Цели и задачи
+
+Освоение основных возможностей командной оболочки Midnight Commander. Приоб-
+ретение навыков практической работы по просмотру каталогов и файлов; манипуляций
+с ними.
+
+
+# Процесс выполнения лабораторной работы
 
 ## Информация о mc
 
@@ -77,8 +93,6 @@ section-titles: true
 
 ## Домашний каталог
 
- "/.." 
-
 ![Переход в домашний каталог](image/14.png){ #fig:014 width=100% }
 
 ## Анализ файла меню 
@@ -101,13 +115,6 @@ section-titles: true
 
 ![Открытие файла в "mcedit"](image/19.png){ #fig:019 width=70% }
 
-## Клавиши для редактирования файла
-
-1. "Ctrl-y" - удалить строку
-2. "F3" - выделить фрагмент. "F5" - копировать выделенный фрагмент.
-3. "F3" - выделить фрагмент. "F6" - переместить выделенный фрагмент.
-4. "Ctrl-u" - отмена последней операции.
-5. "F7" - поиск.
 
 ## Выполнение всех клавиш
 
@@ -121,11 +128,6 @@ section-titles: true
 
 ![Выключение/включение подсветки синтаксиса](image/22.png){ #fig:022 width=70% }
 
-# Выводы
+## Выводы
 
 В ходе выполнения лабораторной работы мы освоили основные возможности командной оболочки Midnight Commander. Приобрели навыки практической работы по просмотру каталогов и файлов, а также манипуляций с ними.
-
-
-## {.standout}
-
-Спасибо за внимание!
